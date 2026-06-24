@@ -17,12 +17,12 @@ function seedData(){
                 fuelType: car.fuelType,
                 transmission: car.transmission,
                 engine: car.engine,
-                milage: car.mileage,
+                mileage: car.mileage,
                 color: car.color,
                 price: car.price,
                 condition: car.condition,
-                discription: car.description,
-                photo: car.photo,
+                description: car.description,
+                photos: car.photos,
                 inMarket: car.inMarket,
             });
             newCar.save();
